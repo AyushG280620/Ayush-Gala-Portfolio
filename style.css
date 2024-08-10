@@ -317,6 +317,11 @@ section {
   display: flex;
 }
 
+.section__pic-container{
+  width: 480px;
+  height: 600;
+}
+
 .about-pic {
   height: 600px;
   width: 480px;
