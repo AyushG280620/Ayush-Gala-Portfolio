@@ -196,6 +196,11 @@ section {
   align-items: center;
 }
 
+.about-pic{
+  max-width: vw;
+  max-height: vh;
+}
+
 /* Modal Styles */
 .modal {
 display: none;
