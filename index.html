@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./mediaqueries.css">
+</head>
+  <body>
+    <nav id="desktop-nav">
+        <div class="logo">Ayush Gala</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ayush Gala</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ayush Gala</h1>
+        <p class="section__text__p2">Urban Designer & Sustainability Advocate</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color-1"
+            onclick="window.open('./assets/Portfolio.pdf')"
+          >
+            Portfolio
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='http://www.linkedin.com/in/ayushgala'"
+          />
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+            onclick="location.href='mailto:aayushgala9872@gmail.com'"
+            />
+      </div>
+    </div>
+    <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#about'"
+        /> 
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Urban Design, Architect</p>            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Architecture<br />Master of Urban Design</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                  As an Architect and Urban Designer, my philosophy is deeply rooted in empowering
+                communities through sustainable, innovative design that harmonizes contemporary
+                technology with historical context. My approach, shaped by a rich academic
+                background, emphasizes holistic urban revitalization that prioritizes inclusivity,
+                ecological balance, and long-term resilience. Collaboration is a cornerstone of my
+                philosophy; I am committed to working alongside like-minded professionals to forge
+                a path towards a sustainable, well-planned urban future, where the design of spaces
+                reflects both functionality and environmental mindfulness.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        /> 
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Professional Journey</h1>
+      <div class="experience-grid-container">
+        <div class="details-container work-experience">
+          <h2 class="experience-sub-title">Work Experience</h2>
+          <div class="article-container">
+            <article>
+              <div class="text-container">
+                <h3>1.</h3>
+              </div>             
+               <div>
+                <h3>Architectural Intern</h3>
+                <p>Bekal Gupta Architects, Mumbai, India</p>
+                <p>October 2021 - March 2022</p>
+                <ul>
+                  <li>Crafted 3+ detailed 3D models using Revit and SketchUp, enhancing client visualization and supporting project approval processes.</li>
+                  <li>Generated over 20 presentation sheets that effectively communicated design intent and project specifications, enhancing stakeholder engagement.</li>
+                </ul>              
+              </div>
+            </article>
+            <article>
+              <div class="text-container">
+                <h3>2.</h3>
+              </div>             
+               <div>
+                <h3>Teaching Assistant</h3>
+                <p> UVA School of Architecture, Charlottesville, VA</p>
+                <p>January 2024 - April 2024</p>
+                <ul>
+                  <li>Guided 30 students through the history, theory, and practice of various construction systems, utilizing detailed Revit tutorials for comprehensive project oversight.</li>
+                  <li>Conducted personalized sessions to address individual student inquiries, ensuring mastery over architectural concepts and Revit software tools.</li>
+                </ul>              
+              </div>
+            </article>
+            <article>
+              <div class="text-container">
+                <h3>3.</h3>
+              </div>                 
+              <div>
+                <h3>Urban Design Intern</h3>
+                <p>FHI Studio, Hartford, CT</p>
+                <p>May 2022 - August 2022</p>
+                <ul>
+                  <li>Assisted in urban planning and design projects, conducted research, and created visual presentations for client meetings.</li>
+                  <li>Generated over presentations that effectively communicated design intent and project specifications, enhancing stakeholder engagement.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container technical-skills">
+          <h2 class="experience-sub-title">Technical Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/rhino.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Rhino 3D</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/autocad.jpg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>AutoCAD</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/enscape.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Enscape</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/revit.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Revit</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/photoshop.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Photoshop</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/vray.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>V-ray</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/sketchup.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Sketchup</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/illustrator.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Illustrator</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/lumion.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Lumion</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container soft-skills">
+          <h2 class="experience-sub-title">Soft Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/communication.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Communication</h3>
+                <p>Excellent verbal and written communication skills</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/teamwork.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Teamwork</h3>
+                <p>Collaborative and team-oriented</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/problem solving.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Problem-solving</h3>
+                <p>Strong analytical and problem-solving skills</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+</section>
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/Rebellious Roots/Render 1.jpg" alt="Project 1" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Rebellious Roots</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="openModal('project-1')">
+            Overview
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('project-1-details.html')">
+            Details
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Two</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="openModal('project-2')">
+            Overview
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('project-2-details.html')">
+            Details
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Three</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="openModal('project-3')">
+            Overview
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('project-3-details.html')">
+            Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+</section>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <img id="modal-image" class="modal-image" src="" alt="Project Image" />
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+  </div>
+</div>
+
+<!-- Responsive Overview Image -->
+<div id="overview-image-container" class="image-container">
+  <img src="/mnt/data/Big Map 3.jpg" alt="Overview Image" class="responsive-image">
+</div>
+  <section>
+  </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Ayush Gala. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
