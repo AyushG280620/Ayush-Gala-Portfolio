@@ -318,6 +318,8 @@ section {
 }
 
 .about-pic {
+  height: 600px;
+  width: 480px;
   border-radius: 2rem;
   margin-top: -20%;
 }
