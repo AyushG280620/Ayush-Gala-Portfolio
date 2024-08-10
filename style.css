@@ -199,6 +199,7 @@ section {
 .about-pic{
   max-width: vw;
   max-height: vh;
+  margin-top: -20%;
 }
 
 /* Modal Styles */
@@ -282,9 +283,6 @@ right: 0;
 background-color: rgba(0, 0, 0, 0.8);
 }
 
-.about-pic {
-  height: auto;
-}
 
 /* Responsive Image Styles */
 .image-container {
